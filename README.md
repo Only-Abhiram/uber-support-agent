@@ -83,7 +83,7 @@ This loads the data, builds the retriever, and scores my two baselines. You'll s
 **4. Run the actual AI agent** (needs your API key + internet)
 ```bash
 export GEMINI_API_KEY=your-key-here
-python3 src/eval_harness.py --limit 40
+python3 src/eval_harness.py --limit 10
 ```
 This sends real messages through Gemini, gets real replies, and grades them. Takes about 5-10 minutes for 40 examples.
 
