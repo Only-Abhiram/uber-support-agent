@@ -1,0 +1,23 @@
+TRIVIAL (rule-based)
+accuracy=0.7745
+macro_f1=0.7560
+weighted_f1=0.8012
+
+                              precision    recall  f1-score   support
+
+     ACCOUNT_ACCESS_SECURITY       1.00      0.86      0.92        21
+         APP_TECHNICAL_ISSUE       1.00      0.68      0.81        22
+        BILLING_FARE_DISPUTE       0.90      0.75      0.82        24
+    CANCELLATION_FEE_DISPUTE       1.00      0.95      0.97        19
+      DRIVER_PARTNER_SUPPORT       0.90      1.00      0.95         9
+      DRIVER_SAFETY_BEHAVIOR       0.85      0.68      0.76        25
+            EATS_ORDER_ISSUE       0.89      0.89      0.89        18
+GENERAL_SUPPORT_UNRESPONSIVE       0.40      0.67      0.50        15
+                   LOST_ITEM       0.93      0.70      0.80        20
+         PRAISE_OR_OFF_TOPIC       0.13      0.50      0.21         4
+        PROMO_REFERRAL_ISSUE       1.00      1.00      1.00        15
+      TRIP_QUALITY_LOGISTICS       0.40      0.50      0.44        12
+
+                    accuracy                           0.77       204
+                   macro avg       0.78      0.76      0.76       204
+                weighted avg       0.85      0.77      0.80       204

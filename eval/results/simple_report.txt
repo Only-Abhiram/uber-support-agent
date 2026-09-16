@@ -1,0 +1,23 @@
+SIMPLE (TF-IDF + LogisticRegression)
+accuracy=0.6814
+macro_f1=0.6824
+weighted_f1=0.7160
+
+                              precision    recall  f1-score   support
+
+     ACCOUNT_ACCESS_SECURITY       0.95      0.86      0.90        21
+         APP_TECHNICAL_ISSUE       0.92      0.55      0.69        22
+        BILLING_FARE_DISPUTE       0.79      0.62      0.70        24
+    CANCELLATION_FEE_DISPUTE       0.84      0.84      0.84        19
+      DRIVER_PARTNER_SUPPORT       1.00      0.89      0.94         9
+      DRIVER_SAFETY_BEHAVIOR       0.93      0.56      0.70        25
+            EATS_ORDER_ISSUE       0.79      0.83      0.81        18
+GENERAL_SUPPORT_UNRESPONSIVE       0.24      0.67      0.36        15
+                   LOST_ITEM       0.93      0.65      0.76        20
+         PRAISE_OR_OFF_TOPIC       0.20      0.50      0.29         4
+        PROMO_REFERRAL_ISSUE       1.00      0.73      0.85        15
+      TRIP_QUALITY_LOGISTICS       0.31      0.42      0.36        12
+
+                    accuracy                           0.68       204
+                   macro avg       0.74      0.68      0.68       204
+                weighted avg       0.80      0.68      0.72       204

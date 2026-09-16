@@ -1,0 +1,14 @@
+{
+  "trivial": {
+    "name": "TRIVIAL (rule-based)",
+    "accuracy": 0.7745098039215687,
+    "macro_f1": 0.75598551256446,
+    "weighted_f1": 0.8011566010792017
+  },
+  "simple": {
+    "name": "SIMPLE (TF-IDF + LogisticRegression)",
+    "accuracy": 0.6813725490196079,
+    "macro_f1": 0.682361748115222,
+    "weighted_f1": 0.7160157979764481
+  }
+}

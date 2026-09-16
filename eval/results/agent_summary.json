@@ -1,0 +1,14 @@
+{
+  "n": 3,
+  "n_errored": 7,
+  "intent_accuracy": 1.0,
+  "intent_macro_f1": 1.0,
+  "escalation_precision": 0.0,
+  "escalation_recall": 0.0,
+  "judge_mean_scores": {
+    "relevance": 5.0,
+    "faithfulness": 5.0,
+    "tone": 5.0,
+    "actionability": 5.0
+  }
+}
